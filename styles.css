@@ -1,3 +1,10 @@
+*{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
 :root{
     --color-primary: #3e3d3d;
     --color-sencondary: #ffffff;
@@ -11,9 +18,6 @@
 body{
     background-color: var(--color-background);
     color: var(--color-text);
-    margin-left: 60px; 
-    margin-right: 60px;
-    justify-content: center;
 }
 header{
     display: flex;
